@@ -1,0 +1,4 @@
+<h1><%= @article.title %></h1>
+<p class='plain_text'><%= raw @kramdown_article.to_html %></p>
+
+<h2><%= link_to "Back to overview", articles_path %></h2>
